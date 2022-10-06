@@ -1,0 +1,17 @@
+ /*grouped element selector*/
+ p {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: bolder; 
+}
+/* descendant selectors pick an element inside another element*/
+p a {
+    color: orange;
+}
+#firstbullet{
+    color:red;
+}
+.pinktext{
+    color: pink;
+}
