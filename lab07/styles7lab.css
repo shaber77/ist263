@@ -1,0 +1,32 @@
+p{
+    color: #fdfaff
+    
+}
+.bullet1, .bullet2, .bullet3{
+    color: #fdfaff ; 
+}
+.bullet4, .bullet5, .bullet6{
+    color: #fdfaff;
+}
+body{
+    background-color: #dfacfc;
+}
+h1, h2 { color: black}
+
+
+a:visited{
+    color: #060b70
+}
+
+a:hover{
+    color: #8605ff
+}
+.evenrow {background-color: blue;
+    color:aliceblue
+}
+nav a:hover {background-color: aqua;
+}
+nav{
+    padding: 10px
+}
+nav{margin-bottom:30px}
