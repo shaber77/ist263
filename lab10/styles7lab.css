@@ -1,0 +1,87 @@
+p{
+    color: #fdfaff    
+}
+.bullet1, .bullet2, .bullet3{
+    color: #fdfaff ; 
+}
+.bullet4, .bullet5, .bullet6{
+    color: #fdfaff;
+}
+body{
+    background-color: #dfacfc;
+}
+h1, h2 { color: black}
+a:visited{
+    color: #060b70
+}
+a:hover{
+    color: #8605ff
+}
+.evenrow {background-color: blue;
+    color:aliceblue
+}
+nav a:hover {background-color: aqua;
+}
+nav{
+    padding: 10px
+}
+nav{margin-bottom:30px}
+
+.row1{
+    display: flex;
+    padding: 10px;
+    background-color: #ebdbda;
+    margin: 10px;
+    border-radius: 1em;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+.address{
+    margin: 5px;
+    padding: 20px;
+}
+
+.row2{
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    background-color: #adedea;
+    border-radius: 1em;
+    flex-wrap: wrap;
+}
+.form{
+    order: 1;
+    padding: 10px;
+}
+.frame{
+    order: 2;
+}
+.name, .lang{
+    color: black
+}
+.icon{width: 40px; height: auto}
+
+.parentskills{display: flex;}
+
+.skills{display: flex;}
+.skills{
+    flex-basis: 25%; align-items: center; margin-left:90px;
+}
+.otherskills{
+    flex-basis: 25%; margin-top: 20px; margin-right: 70px;
+}
+.otherskills{background-color: #ffffff; border-radius: 25px; padding-left: 3em; padding-bottom: 1em;}
+
+.topskill{justify-content: center; margin-top: 20px; margin: 100px;}
+
+.description{display: flex;}
+.description{margin-left: 130px; margin-right: 535px;}
+
+.img{max-width: 100%;}
+
+@media only screen and (max-width: 600px){
+    nav a{ display: block; padding: 10px} 
+    span{display: none;}
+}
+
