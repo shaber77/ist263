@@ -29,7 +29,7 @@ body{
 
 .air{
     width: 400px; height:auto;
-    float: left;
+    float: inline-end; 
     text-align: right;
 }
 
