@@ -7,7 +7,7 @@ body{
 	clear:both;
 }
 .description{
-    color: #000;
+    color: #ffffff;
     display: flex; 
 }
 .description{
@@ -156,4 +156,22 @@ a{
 @media only screen and (min-width: 1000px) {
     body {background-color: #000000;}
     p {color: #ffffff;}
+}
+@keyframes pictures {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  /* The element to apply the animation to */
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: pictures ;
+    animation-duration: 4s;
+  }
+#trophy{
+    border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(projimg/trophy.webp) 30 round;
 }
