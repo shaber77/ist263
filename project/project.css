@@ -147,11 +147,11 @@ a{
     background-color: #54eaf7;
     border-radius: 1em;
 }
-@media only screen and (max-width: 600px) {
-    body {background-color: orange;}
+@media only screen and (max-width: 300px) {
+    body {background-color: navy;}
     p{color: blue;}
-    .row1{margin: 10px;}
-    .banner{display: none;}
+    .discrption{margin: 10px;}
+    .trophy,.air{display: none;}
 }
 @media only screen and (min-width: 1000px) {
     body {background-color: #000000;}
